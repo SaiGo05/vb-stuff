@@ -1,0 +1,794 @@
+﻿body {
+    background-color: #e6e6e6;
+    margin: 0;
+} 
+
+.timeAndTag{
+    font-family: Arial;
+    font-size: 12px;
+    color: #808080;
+    font-weight: bold;
+    /*padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;*/
+    position:inherit;
+    bottom:3%;
+    left: 5%;
+}
+
+a:visited {
+    color: #808080;
+}
+
+.aSource{
+    font-family: Arial;
+    font-size: 12px;
+    color: #808080;
+    font-weight: bold;
+    position:inherit;
+    bottom:3%;
+    right: 5%;
+}
+
+.noDeco{
+    text-decoration: none;
+}
+
+.blockBorderBig{
+    border: 1px solid black;
+    border-style:none;
+    width: 640px; 
+    height: 350px;
+    padding-right: 8.3px;
+    /*padding-left: 10px;
+    padding-top: 10px;*/
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.blockBorderSmall{
+    border: 1px solid black;
+    border-style:none;
+    width: 304px; 
+    height: 350px;
+    padding-right: 8.3px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.blockBorderAdvert{
+    border: 1px solid black;
+    border-style:none;
+    width: 304px; 
+    height: 350px;
+    padding-right: 8.3px;
+    padding-bottom: 10px;
+    background-color: #3b3b3b;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.articleTitle{
+    font-family: sans-serif;
+    font-size: 20.8px;
+    color:#303030;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    
+}
+
+.articleTitleMini{
+    font-family: sans-serif;
+    font-size: 14.3px;
+    color:#303030;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    
+}
+
+header{
+    
+}
+
+.mainNav{
+    background: #2770a5;
+    margin: 0 0 0.5em 0; 
+    height: 60px;   
+}
+
+a.topLinks
+     {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    top: 20px;
+    font-family: Arial;
+     font-size: 15.7333px;
+     } 
+
+a.secLinks
+     {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 20px;
+    color: #595959;
+    font-family: sans-serif;
+    font-weight: 700;
+    top: 10px;
+    font-size: 12px;
+     } 
+
+a.test{
+    margin-top: 2px;
+}
+
+a.logo{
+    position: absolute;
+    left: 18%;
+    top: 12px;
+}
+
+a.ps4{
+    position: absolute;
+    left: 26%;
+    top: 30px;
+}
+
+a.xbone{
+    position: absolute;
+    left: 29.2%;
+    top: 30px;
+}
+
+a.pc{
+    position: absolute;
+    left: 35%;
+    top: 30px;
+}
+
+a.wiiu{
+    position: absolute;
+    left: 37.5%;
+    top: 30px;
+}
+
+a.ps3{
+    position: absolute;
+    left: 41%;
+    top: 30px;
+}
+
+a.xb360{
+    position: absolute;
+    left: 44%;
+    top: 30px;
+}
+
+a.vita{
+    position: absolute;
+    left: 49.5%;
+    top: 30px;
+}
+
+a.nds{
+    position: absolute;
+    left: 52.4%;
+    top: 30px;
+}
+
+div.nds2{
+    text-decoration: none;
+    position: absolute;
+    left: 52.4%;
+    top: 30px;
+}
+
+a.more{
+    position: absolute;
+    left: 55%;
+    top: 30px;
+}
+
+a.login{
+    position: absolute;
+    left: 69%;
+    top: 24px;
+}
+
+a.submit{
+    position: absolute;
+    left: 77.3%;
+    top: 22px;
+    text-transform: uppercase;
+}
+
+a.trnd{
+    position: absolute;
+    left: 17.5%;
+    top: 80px;
+}
+
+.trnd2{
+    height:44px;
+    width:auto;
+    background-image:url(../URL/bgSecLinks.png);
+}
+
+a.ltst{
+    position: absolute;
+    left: 26%;
+    top: 90px;
+    height:44px;
+    width:auto;
+}
+
+
+a.ltst:hover{
+    background-image:url(../URL/bgSecLinks.png);
+}
+
+a.htst{
+    position: absolute;
+    left: 31%;
+    top: 90px;
+    height:44px;
+    width:auto;
+}
+
+
+
+a.htst:hover{
+    background-image:url(../URL/bgSecLinks.png);
+}
+
+a.pndi{
+    position: absolute;
+    left: 37%;
+    top: 90px;
+    height:44px;
+    width:auto;
+}
+
+a.pndi:hover{
+    background-image:url(../URL/bgSecLinks.png);
+}
+
+a.alstor{
+    position: absolute;
+    left: 73.4%;
+    top: 80px;
+}
+
+a.serIcon{
+    position: absolute;
+    left: 73.4%;
+    top: 28px;
+}
+
+a.alstor:hover{
+    background-image:url(../URL/bgSecLinks.png);
+}
+
+.bbb1{
+    position: absolute;
+    left: 18%;
+    top: 120px;
+}
+
+.bbs1{
+    position: absolute;
+    left: 62%;
+    top: 120px;
+}
+
+.bbs2{
+    position: absolute;
+    left: 18%;
+    top: 510px;
+}
+
+.bbs3{
+    position: absolute;
+    left: 40%;
+    top: 510px;
+}
+
+.bbb2{
+    position: absolute;
+    left: 18%;
+    top: 900px;
+}
+
+.bbs4{
+    position: absolute;
+    left: 62%;
+    top: 900px;
+}
+
+.bbs5{
+    position: absolute;
+    left: 18%;
+    top: 1290px;
+}
+
+.bbb3{
+    position: absolute;
+    left: 40%;
+    top: 1290px;
+}
+
+.bbb4{
+    position: absolute;
+    left: 18%;
+    top: 1680px;
+}
+.bbs6{
+    position: absolute;
+    left: 62%;
+    top: 1680px;
+}
+
+.bbs7{
+    position: absolute;
+    left: 18%;
+    top: 2070px;
+}
+
+.bbs8{
+    position: absolute;
+    left: 40%;
+    top: 2070px;
+}
+
+.bbs9{
+    position: absolute;
+    left: 62%;
+    top: 2070px;
+}
+
+.bbb5{
+    position: absolute;
+    left: 18%;
+    top: 2460px;
+}
+
+.bbs10{
+    position: absolute;
+    left: 62%;
+    top: 2460px;
+}
+
+.bbs11{
+    position: absolute;
+    left: 18%;
+    top: 2850px;
+}
+
+.bbs12{
+    position: absolute;
+    left: 40%;
+    top: 2850px;
+}
+
+.bbs13{
+    position: absolute;
+    left: 62%;
+    top: 2850px;
+}
+
+.bbs14{
+    position: absolute;
+    left: 18%;
+    top: 3240px;
+}
+
+.bbs15{
+    position: absolute;
+    left: 40%;
+    top: 3240px;
+}
+
+.bbs16{
+    position: absolute;
+    left: 62%;
+    top: 3240px;
+}
+
+.bbs17{
+    position: absolute;
+    left: 18%;
+    top: 3630px;
+}
+
+.bbs18{
+    position: absolute;
+    left: 40%;
+    top: 3630px;
+}
+
+.bbs19{
+    position: absolute;
+    left: 62%;
+    top: 3630px;
+}
+
+.bbs20{
+    position: absolute;
+    left: 18%;
+    top: 4020px;
+}
+
+.bbs21{
+    position: absolute;
+    left: 40%;
+    top: 4020px;
+}
+
+.bbs22{
+    position: absolute;
+    left: 62%;
+    top: 4020px;
+}
+
+footer.position{
+    position: absolute;
+    top: 5270px;
+}
+
+a.loadPos{
+    text-decoration:none;
+    position: absolute;
+    left:18%;
+    top: 4395px;
+    width:980px;
+    background-color:#3b3b3b;
+    text-align:center;
+    height:20px;
+    color:#ffffff;
+    font-family:sans-serif;
+    padding-top:5px;
+}
+
+footer{
+    background-color:#3b3b3b;
+    margin: 0 0 0.5em 0; 
+    height: 60px;
+    width:100%;
+    font-size:16px;
+    font-family:sans-serif;    
+}
+
+a.footerLogo{
+text-decoration:none;
+    position: absolute;
+    left: 18%;
+    top: 12px;
+}
+
+a.topGames{
+    text-decoration:none;
+    position: absolute;
+    left: 34%;
+    top: 22px;
+    color: #c3c3c3;
+    border-bottom-style: solid;
+}
+
+a.topUsers{
+    text-decoration:none;
+    position: absolute;
+    left: 52%;
+    top: 22px;
+    color: #c3c3c3;
+    border-bottom-style: solid;
+}
+
+a.helpAndInfo{
+    text-decoration:none;
+    position: absolute;
+    left: 70%;
+    top: 22px;
+    color: #c3c3c3;
+    border-bottom-style: solid;
+}
+
+a.logoUnderline{
+    text-decoration:none;
+    position: absolute;
+    left: 18%;
+    top: 24px;
+    color: #c3c3c3;
+    border-bottom-style: solid;
+}
+
+.bbs23{
+    position: absolute;
+    left: 62%;
+    top: 510px;
+    color:#ffffff;
+}
+
+adTitle{
+    position:inherit;
+    left:32%;
+    top:5%;
+    color:#ffffff;
+    font-family:sans-serif;
+    font-size:16px;
+    text-transform: uppercase;
+}
+
+div.yesNo1{
+    position:inherit;
+    left:9%;
+    top:22%;
+    font-family:sans-serif;
+    text-transform: uppercase;
+}
+
+p.ques1{
+    position:inherit;
+    left:5%;
+    top:12%;
+    width:auto;
+    font-family:sans-serif;
+}
+
+p.ques2{
+    position:inherit;
+    left:5%;
+    top:30.5%;
+    width:auto;
+    font-family:sans-serif;
+}
+
+div.roles{
+    position:inherit;
+    left:9%;
+    top:40%;
+    font-family:sans-serif;
+    text-transform: uppercase;
+}
+
+p.ques3{
+    position:inherit;
+    left:5%;
+    top:56%;
+    width:auto;
+    font-family:sans-serif;
+}
+
+div.tis{
+    position:inherit;
+    left:60%;
+    top:60.5%;
+    font-family:sans-serif;
+}
+
+p.ques4{
+    position:inherit;
+    left:5%;
+    top:65%;
+    width:auto;
+    font-family:sans-serif;
+}
+
+div.txtsid{
+    position:inherit;
+    left:34%;
+    top:69%;
+    font-family:sans-serif;
+}
+
+p.ques5{
+    position:inherit;
+    left:5%;
+    top:72%;
+    width:auto;
+    font-family:sans-serif;
+}
+
+div.yesNo2{
+    position:inherit;
+    left:9%;
+    top:80.7%;
+    font-family:sans-serif;
+    text-transform: uppercase;
+}
+
+div.btnSub{
+    position:inherit;
+    left:26.4%;
+    top:90%;
+    font-family:sans-serif;
+}
+
+div.btnClr{
+    position:inherit;
+    left:44%;
+    top:90%;
+    font-family:sans-serif;
+}
+
+div.btnUpd{
+    position:inherit;
+    left:60%;
+    top:90%;
+    font-family:sans-serif;
+}
+
+div.btnDel{
+    position:inherit;
+    left:80%;
+    top:90%;
+    font-family:sans-serif;
+}
+
+a.usrContent{
+    text-decoration:none;
+    position: absolute;
+    left:18%;
+    top: 4700px;
+    width:985px;
+    background-color:#1875b7;
+    text-align:center;
+    height:35px;
+    color:#ffffff;
+    font-family:sans-serif;
+    padding-top:5px;
+}
+
+div.userContent{
+    position: absolute;
+    left:0%;
+    top: 2px;
+}
+
+div.blogPosts{
+    position: absolute;
+    left:90%;
+    top: 1px;
+}
+
+div.userReviews{
+    position: absolute;
+    left:95%;
+    top: 0px;
+}
+
+.blockBorderMini{
+    border: 1px solid black;
+    border-style:none;
+    width: 186px; 
+    height: 250px;
+    padding-right: 8.3px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.bs1{
+    position: absolute;
+    left: 18%;
+    top: 4430px;
+    color:#ffffff;
+}
+
+.bs2{
+    position: absolute;
+    left: 31%;
+    top: 4430px;
+    color:#ffffff;
+}
+
+.bs3{
+    position: absolute;
+    left: 44%;
+    top: 4430px;
+    color:#ffffff;
+}
+
+.bs4{
+    position: absolute;
+    left: 57%;
+    top: 4430px;
+    color:#ffffff;
+}
+
+.bs5{
+    position: absolute;
+    left: 70%;
+    top: 4430px;
+    color:#ffffff;
+}
+
+.blockBorderNB {
+    border: 1px solid black;
+    border-style: none;
+    width: 313px;
+    height: 360px;
+    padding-right: 8.3px;
+    padding-bottom: 10px;
+    background-color: #323235;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.bb1{
+    position: absolute;
+    left: 18%;
+    top: 4820px;
+    color:#ffffff;
+}
+
+.bb2{
+    position: absolute;
+    left: 40%;
+    top: 4820px;
+    color:#ffffff;
+}
+
+.bb3{
+    position: absolute;
+    left: 62%;
+    top: 4820px;
+    color:#ffffff;
+}
+
+.newsblr{
+    background-color:#31588e;
+    margin: 0 0 0.5em 0; 
+    height: 520px;
+    width:100%;
+    font-size:16px;
+    font-family:sans-serif;  
+}
+
+.nwsblr{
+    position: absolute;
+    top: 4760px;
+    left: 0px;
+}
+
+.news{
+    position: absolute;
+    left: 18%;
+    top: 4770px;
+}
+
+.techspy{
+    position: absolute;
+    left: 27%;
+    top: 4775px;
+}
+
+.filmwatch{
+    position: absolute;
+    left: 35%;
+    top: 4774px;
+}
+
+.animeshinbun{
+    position: absolute;
+    left: 43%;
+    top: 4774px;
+}
+
+.eleven{
+    position: absolute;
+    left: 51%;
+    top: 4775px;
+}
+
+.morenews{
+    position: absolute;
+    left: 18.5%;
+    top: 5215px;
+}

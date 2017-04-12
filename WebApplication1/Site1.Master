@@ -1,0 +1,58 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <link rel="stylesheet" type="text/css" href="styles/StyleSheet1.css" />
+        <asp:ContentPlaceHolder ID="head" runat="server" />
+  
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id ="page" class ="page">
+                                
+    </div>
+         <header>
+             
+             <div class="mainNav">
+            <%--<nav>--%>
+                <a class ="logo" href ="#"><img src="images/logo.png" height ="50" width ="92" /></a>
+                <a class="topLinks ps4" href="#">PS4</a>
+                <a class="topLinks xbone" href="#">Xbox One</a>
+                <a class="topLinks pc" href="#">PC</a>
+                <a class="topLinks wiiu" href="#">Wii U</a>
+                <a class="topLinks ps3" href="#">PS3</a>
+                <a class="topLinks xb360" href="#">Xbox 360</a>
+                <a class="topLinks vita" href="#">Vita</a>
+                <a class="topLinks nds" href="#">DS</a>
+                <a class="topLinks more" href="#">...</a>
+                <a class="topLinks serIcon" href="#">Login</a>
+                <a class="topLinks submit" href="#"><img src="images/submit.png" width="70" /></a>
+                <a class="topLinks login" href ="#"><img src="images/search.png" width="30" /></a></div>
+                <span style="position: absolute; left: 42.7%; top: 85px;color: #ffffff;font-weight: bold;text-decoration: none;"; ><asp:LinkButton ID="lbtnGridView" runat="server" Text="GridView" OnClick="lbtnGridView_Click"/></></span>
+                <a class="secLinks trnd" href="#"><img src="images/trending.png" width ="110" /></a>
+                <a class="secLinks ltst" href="#">LATEST</a>
+                <a class="secLinks htst" href="#">HOTTEST</a>
+                <a class="secLinks pndi" href="#">PENDING</a>
+                <a class="secLinks alstor" href="#"><img src="images/allstories.png" width ="130" /></a>
+             <%--</nav>--%>
+             
+                   </header>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+        <a class="loadPos" href="#">Load more...</a>
+        <a class="usrContent" href="#"><div class="userContent"><img src ="images/usercontent.png" height="35"/><div class="blogPosts"><img src ="images/blogposts.png" height="35"/><div class="userReviews"><img src ="images/userreviews.png" height="35"/></div></div></div></a>
+        
+        <footer class="position">
+            <nav>
+                
+                <a class="footerLogo" href ="#"><img src="images/logo.png" height ="38" width ="70" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a class="topGames" href="#">TOP GAMES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a class="topUsers" href="#">TOP USERS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a class="helpAndInfo" href="#">HELP & INFO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a class="logoUnderline" href="#">.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            </nav>
+        </footer>
+    </form>
+</body>
+</html>
